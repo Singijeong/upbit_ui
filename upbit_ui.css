@@ -1,0 +1,49 @@
+table {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: Roboto, "Noto Sans KR", sans-serif, 
+    AppleSDGothicNeo-Regular, "Malgun Gothic", Dotum;
+}
+tr:nth-child(even){
+    background-color: rgb(187, 187, 187,0.1);
+}
+tr{
+    text-align: right;
+}
+th {
+    color: rgb(100, 97, 97,0.7);
+    background-color: rgb(187, 187, 187,0.1);
+    border-bottom: 1px solid rgb(136, 135, 135,0.3);
+    text-align: right;
+    
+}
+#th_row{
+    background-color: rgb(255, 255, 255);
+}
+td:hover{
+    background-color: antiquewhite;
+}
+td{
+    font-size: 13px;
+}
+thead{
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+}
+.up{
+    color: red;
+}
+.down{
+    color: blue;
+}
+.cAlign{
+    text-align: center;
+}
+i {
+    color: rgba(65, 63, 63, 0.3);
+    font-style: normal;
+}
+.rAlign{
+    padding-right: 10px;
+}
